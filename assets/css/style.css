@@ -284,6 +284,21 @@ header .menu-icon div {
     font-weight: bold;
 }
 
+.product-item .price-flex {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.product-item .product-promo-price {
+    margin-right: 10px;
+}
+
+.product-item .product-old-price {
+    font-size: 20px;
+    text-decoration: line-through;
+    color: #5F5F5F;
+}
+
 /* FOOTER */
 
 footer {
